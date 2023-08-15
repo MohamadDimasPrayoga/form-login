@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 9999;
+    background: transparent;
+}
+
+.header .nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.header .search input{
+    background: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 10px;
+    right: 100px;
+    outline: none;
+    color: #fff;
+}
+
+.header .search{
+    position: absolute;
+    right: 110px;
+    top: 22px;
+    color: black;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100px 0;
+}
+
+.content a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    top: -40px;
+    left: 80px;
+}
+
+.content h2{
+    font-size: 3.5em;
+    text-align: center;
+    color: #fff;
+}
+
+.content h3{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.content p{
+    margin: 20px 0 0 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.content .icon{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content .icon i{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.content .icon .ig:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.content .icon .wa:hover{
+    color: #5ff190;
+  }
+
+  .content .icon .tw:hover{
+    color: #c4fd3e;
+  }
+
+  .content .icon .li:hover{
+    color: #180f9e;
+  }
+
+  .login{
+    width: 450px;
+    position: relative;
+    padding: 100px 30px;
+    backdrop-filter: blur(20px);
+  }
+
+  .login h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .login .input{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .login .input .input1{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+  ::placeholder{
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .login .input i{
+    position: relative;
+    right: -350px;
+    bottom: 27px;
+    color: #fff;
+  }
+
+  .check{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+
+  .check a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .check a:hover{
+    text-decoration: underline;
+  }
+
+  .login .button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(223, 120, 141);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: #fff;
+}
+
+button:active{
+    font-size: 25px;
+}
+
+.login .sign-up{
+    display: flex;
+    justify-content: center;
+}
+
+.login .sign-up a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.login .sign-up p{
+    color: #fff;
+    margin-right: 4px;
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+}
